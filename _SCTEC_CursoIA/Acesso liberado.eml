@@ -1,0 +1,138 @@
+Delivered-To: dalton.reis@gmail.com
+Received: by 2002:a05:7000:3e91:b0:7e9:c1ea:b08b with SMTP id bx17csp782917mab;
+        Sat, 14 Feb 2026 04:35:29 -0800 (PST)
+X-Received: by 2002:a05:7022:2489:b0:123:2e43:ecbd with SMTP id a92af1059eb24-12741bcf7a0mr1313156c88.33.1771072529652;
+        Sat, 14 Feb 2026 04:35:29 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1771072529; cv=none;
+        d=google.com; s=arc-20240605;
+        b=G656NTHPpHPyjz5mhj0+c36yWXP4j7LEqQvUDI4bf7ivspW31upZaA6GK4NdyU3stt
+         SmbCdeiftarhLhyNeZGhr5ZfqVy2BxANbUEg11l45vCTKSN3xnE3mXj3JYURDAzlbFgY
+         U17f9okThhusyojLtVm0LTDdd+e2r6ZFMJH5H2oRmotIHw5No+AI9VZDWwfxjBtsVRII
+         iwPvQZdOQtj0Z01QdtHLQaC8mLV/cgDP6ay0M/6rVH0Kv3Fjqy3Sn+NGOskyyViBYrxf
+         9npFQJCMlfR1BzLVjg4zE8+3FmF9zzKIwq3javuMPt0II3G/kLBOVdr7zjD4QZaqG7Xv
+         Nw9A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:message-id:subject:reply-to:from:to:date:dkim-filter;
+        bh=2Zt7l3EN47k/U7+h3TUCg7EPa2NIKoOIWHYQV7qMyn4=;
+        fh=9FH0rIhXD4RysRpgxs2WyrK8CSjhuT64MNrxGcV36NA=;
+        b=AxHUBr3bcTxki9HISNsYFlPU/n8+lOkIJohLxdLPE8q3f1+ecJwb5r/SuAJSKfdKzu
+         i7dbVFgUidRCztHUBszK9cw5IC+myCs7Zm+NYpZ2Df6VIfP9MB1kU77CTpVo3CIDn9nO
+         TRo7RVQt0LpeCSeEP+f7S8nAkeyj/DmFNQ+3zRsBVauMiZZFTVO2pmxitpADZ+0/MOEf
+         xQU/hvU4OGIiKuoJAIO9MGvJQluHGTXfSg0uSkJ/Wr85mxpCUu7bZQ9smqxc5PqILTAH
+         hfuV7rIaZrRZPhjotwFLGAgNDuqaJ+mw6VLUuEQr4bQdgjJ+iH7Ps1u4epYXZ5yNKN8Q
+         kvQA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of noreply@sc.senai.br designates 177.221.48.25 as permitted sender) smtp.mailfrom=noreply@sc.senai.br;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=sc.senai.br
+Return-Path: <noreply@sc.senai.br>
+Received: from ns025.fiescnet.com.br ([177.221.48.25])
+        by mx.google.com with ESMTP id 5a478bee46e88-2bacb692103si3876093eec.48.2026.02.14.04.35.29
+        for <dalton.reis@gmail.com>;
+        Sat, 14 Feb 2026 04:35:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@sc.senai.br designates 177.221.48.25 as permitted sender) client-ip=177.221.48.25;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@sc.senai.br designates 177.221.48.25 as permitted sender) smtp.mailfrom=noreply@sc.senai.br;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=sc.senai.br
+Received: from localhost.localdomain (unknown [10.190.97.4])
+	by ns025.fiescnet.com.br (Postfix) with ESMTP id 7378B80302
+	for <dalton.reis@gmail.com>; Sat, 14 Feb 2026 09:35:28 -0300 (-03)
+DKIM-Filter: OpenDKIM Filter v2.10.3 ns025.fiescnet.com.br 7378B80302
+Date: Sat, 14 Feb 2026 09:35:28 -0300
+To: "Dalton Solano dos Reis" <dalton.reis@gmail.com>
+From: "Atendimento SCTEC (via AVA SESI/SC SENAI/SC)" <noreply@sc.senai.br>
+Reply-To: "=?utf-8?B?QWRtaW5pc3RyYcOnw6NvIEFWQQ==?=" <noreply@sc.senai.br>
+Subject: Acesso liberado
+Message-ID: <69906c101ee9e0.61332262@ava-integracao.sesisenai.org.br>
+X-Mailer: PHPMailer 6.8.0 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1=_oEXeOpSmTKa2KcZ3v7iEXsqSox1E2AnLKnnkpgzOUU"
+
+--b1=_oEXeOpSmTKa2KcZ3v7iEXsqSox1E2AnLKnnkpgzOUU
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+--b1=_oEXeOpSmTKa2KcZ3v7iEXsqSox1E2AnLKnnkpgzOUU
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>=0A<html xmlns=3D"http://www.w3.org/1999/xhtml">=0A<head>=0A=
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>=0A  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sca=
+le=3D1.0" />=0A  <meta name=3D"format-detection" content=3D"telephone=3Dno"=
+ />=0A  <link href=3D"https://fonts.googleapis.com/css?family=3DRoboto:400,=
+500,700" rel=3D"stylesheet">=0A  <title></title>=0A</head>=0A=0A<body style=
+=3D"margin:0; padding:0; font-family:Roboto, Tahoma, Arial, sans-serif; bac=
+kground-color:#F5F5F5; color:#000000;">=0A  <table role=3D"presentation" wi=
+dth=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bord=
+er-collapse:collapse; background-color:#F5F5F5;">=0A    <tr>=0A      <td al=
+ign=3D"center" style=3D"padding:24px 12px;">=0A=0A        <table role=3D"pr=
+esentation" width=3D"608" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+=0A               style=3D"border-collapse:collapse; width:608px; max-width=
+:608px; background:#FFFFFF; color:#000000; box-shadow:0px 3px 6px #d5d5d5; =
+border-bottom-left-radius:12px; border-bottom-right-radius:12px;">=0A      =
+    =0A          <tr>=0A            <td align=3D"center" style=3D"padding:0=
+;">=0A              <a href=3D"https://ava-integracao.sesisenai.org.br/loca=
+l/turma/view.php?turmaid=3D122867" target=3D"_blank" style=3D"display:block=
+; text-decoration:none;">=0A                <img src=3D"https://ava-integra=
+cao.sesisenai.org.br/local/sctec/pix/sctec/email/sctec-header.png" alt=3D""=
+ width=3D"608"=0A                     style=3D"display:block; width:100%; m=
+ax-width:608px; height:auto; border:0; margin:0; padding:0;">=0A           =
+   </a>=0A            </td>=0A          </tr>=0A=0A          <tr>=0A       =
+     <td style=3D"padding:24px;">=0A=0A              <div style=3D"text-ali=
+gn:left; margin:0 0 24px 0;">=0A                    <p>Ol=C3=A1, Dalton Sol=
+ano dos Reis!</p>=0A    <p>Sua matr=C3=ADcula na trilha IA na Pr=C3=A1tica =
+gratuito foi confirmada!</p>=0A    <p>Estamos muito felizes com a sua parti=
+cipa=C3=A7=C3=A3o nessa jornada de aprendizado e inova=C3=A7=C3=A3o! =
+=F0=9F=92=99</p>=0A    <p>Agora, fique de olho no seu e-mail! Em breve, voc=
+=C3=AA receber=C3=A1 os dados de acesso=0A        ao nosso Ambiente Virtual=
+ de Aprendizagem.</p>=0A    <p>Confira as principais informa=C3=A7=C3=B5es =
+sobre a capacita=C3=A7=C3=A3o:</p>=0A    <ul>=0A        <li><strong>C=C3=
+=B3digo:</strong> QA IAFI 2026/1 1</li>=0A        <li><strong>Trilha:</stro=
+ng> IA na Pr=C3=A1tica</li>=0A        <li><strong>N=C3=ADvel:</strong> Qual=
+ifica=C3=A7=C3=A3o / Aperfei=C3=A7oamento</li>=0A        <li><strong>Carga =
+Hor=C3=A1ria:</strong> 8</li>=0A        <li><strong>Per=C3=ADodo:</strong> =
+19/01/2026 a 30/08/2027</li>=0A        <li><strong>Turno:</strong> EAD</li>=
+=0A    </ul>=0A=0A              </div>=0A=0A              <table role=3D"pr=
+esentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cente=
+r" style=3D"border-collapse:collapse; margin:0 auto 24px auto;">=0A        =
+        <tr>=0A                  <td align=3D"center" bgcolor=3D"#2CA942" s=
+tyle=3D"border-radius:24px;">=0A                    <a href=3D"https://ava-=
+integracao.sesisenai.org.br/local/turma/view.php?turmaid=3D122867" target=
+=3D"_blank"=0A                       style=3D"display:inline-block; padding=
+:14px 28px; font-weight:700; font-size:14px; color:#ffffff; text-decoration=
+:none; border-radius:24px;">=0A                      Ir para o curso=0A    =
+                </a>=0A                  </td>=0A                </tr>=0A  =
+            </table>=0A=0A              <table role=3D"presentation" width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+collapse:collapse;">=0A                <tr>=0A                  <td style=
+=3D"border-top:1px solid rgba(191,191,191,1); padding-top:20px;"></td>=0A  =
+              </tr>=0A              </table>=0A=0A              <div style=
+=3D"text-align:center; font-size:16px; line-height:1.4; padding-top:0; padd=
+ing-bottom:8px;">=0A                <p style=3D"margin:0 0 10px 0;">Atencio=
+samente,</p>=0A                <p style=3D"margin:0; font-weight:700; color=
+:#000000;">Equipe SCTEC</p>=0A              </div>=0A=0A            </td>=
+=0A          </tr>=0A=0A          <tr>=0A            <td align=3D"center" s=
+tyle=3D"padding:0;">=0A              <a href=3D"https://ava-integracao.sesi=
+senai.org.br/local/turma/view.php?turmaid=3D122867" target=3D"_blank" style=
+=3D"display:block; text-decoration:none;">=0A                <img src=3D"ht=
+tps://ava-integracao.sesisenai.org.br/local/sctec/pix/sctec/email/sctec-foo=
+ter.png" alt=3D"" width=3D"608"=0A                     style=3D"display:blo=
+ck; width:100%; max-width:608px; height:auto; border:0; margin:0; padding:0=
+;">=0A              </a>=0A            </td>=0A          </tr>=0A          =
+<tr>=0A            <td align=3D"center" style=3D"padding:16px 24px 24px 24p=
+x; font-size:13px; line-height:1.5; color:#000000;">=0A              <div s=
+tyle=3D"margin:0 0 6px 0;">Enviado por SCTI e SENAI/SC.</div>=0A           =
+   <div style=3D"margin:0;">=0A                Caso n=C3=A3o queira mais re=
+ceber estes e-mails, <a href=3D"https://ava-integracao.sesisenai.org.br/mes=
+sage/notificationpreferences.php" target=3D"_blank" style=3D"color:#000000;=
+ text-decoration:underline;">cancele sua inscri=C3=A7=C3=A3o</a>.=0A       =
+       </div>=0A            </td>=0A          </tr>=0A=0A        </table>=
+=0A=0A      </td>=0A    </tr>=0A  </table>=0A</body>=0A</html>
+
+--b1=_oEXeOpSmTKa2KcZ3v7iEXsqSox1E2AnLKnnkpgzOUU--
+

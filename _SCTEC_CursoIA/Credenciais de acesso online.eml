@@ -1,0 +1,163 @@
+Delivered-To: dalton.reis@gmail.com
+Received: by 2002:a05:7000:3e91:b0:7e9:c1ea:b08b with SMTP id bx17csp782829mab;
+        Sat, 14 Feb 2026 04:35:18 -0800 (PST)
+X-Received: by 2002:a05:7022:4588:b0:123:2de5:344a with SMTP id a92af1059eb24-12740fc3639mr1155806c88.5.1771072517778;
+        Sat, 14 Feb 2026 04:35:17 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1771072517; cv=none;
+        d=google.com; s=arc-20240605;
+        b=gWtPAbnhXoDk1/XJ0UuZgj0w9KJbpThpditNogaVhjobfotFT2yK6vuhWPCvaR3ZPU
+         Sp7P2al7Z/00BMspvb/PBIWRBOKCgKVBX1zWRtnAPM5kxIdaB32SS9DNVNLJLIEO5I7X
+         2lcs7nAkr7koXSHrfxrl91LBXWo77GSaBwOBKEB9zBnbH5Y1V55de+i+S8hu45L6df5a
+         77BRRxzMIW9AIB9+rpvEFNVcWpTcvX0Nx+sH4rL1h7yS0QYZIGbMXXMKCN5vcNauH2YS
+         zwFzf+03nIkozwRKJ51BI1P8V6KdBVRsdgPgd4iv7M/FAIlCOeeS3pOGUsDH88aRLe/T
+         CRJQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:subject:message-id:to:reply-to:from:date:dkim-filter;
+        bh=ENlXRusN9vLgAyxi/PNvpnBnAxuelcgxGEh34P/1QI8=;
+        fh=XccSIVKftrWLcnvp9Curbpv8Yg+hLvvJznWdVCmgrog=;
+        b=Atw3iBMinDyYJeZ5sIlig4jRXRoU1v8NisoIMYw4kxoTK4bvXSBjkHsUdwNHZkNvY3
+         BfGLO9W+/dhiRgwxy2AbspCVaCr9/5MKdj/E7ierJfHkRYvBBkekEz7VuF7aSmk9ddRp
+         cTrDFnfzQpRct239uK43OPJPxXwiDxqxo/jeblaHj655HuiawKbe+4zDhEy/k4AR1spx
+         f2GhngANRB6avxWhQiTGtrQnueFk+wBtCOznWNRK6piHG1a+YC7Y5i8Bai9oSZg2vdYM
+         fEynVjKw6S0SfRcxtOuKMIySqmVe+D1Du+q4scgtBJgoo6lxvaDYnZzHtgswULk/SMQo
+         8YHg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of noreply@scti.sc.gov.br designates 177.221.48.25 as permitted sender) smtp.mailfrom=noreply@scti.sc.gov.br;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=scti.sc.gov.br
+Return-Path: <noreply@scti.sc.gov.br>
+Received: from ns025.fiescnet.com.br ([177.221.48.25])
+        by mx.google.com with ESMTP id a92af1059eb24-12742b5cf8bsi3021450c88.8.2026.02.14.04.35.17
+        for <dalton.reis@gmail.com>;
+        Sat, 14 Feb 2026 04:35:17 -0800 (PST)
+Received-SPF: pass (google.com: domain of noreply@scti.sc.gov.br designates 177.221.48.25 as permitted sender) client-ip=177.221.48.25;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of noreply@scti.sc.gov.br designates 177.221.48.25 as permitted sender) smtp.mailfrom=noreply@scti.sc.gov.br;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=scti.sc.gov.br
+Received: from sgn-jms-app-996-8wmpg (unknown [10.180.200.138])
+	by ns025.fiescnet.com.br (Postfix) with ESMTPSA id 4F80680302
+	for <dalton.reis@gmail.com>; Sat, 14 Feb 2026 09:35:16 -0300 (-03)
+DKIM-Filter: OpenDKIM Filter v2.10.3 ns025.fiescnet.com.br 4F80680302
+Date: Sat, 14 Feb 2026 09:35:16 -0300 (BRT)
+From: SCTEC <noreply@scti.sc.gov.br>
+Reply-To: digital.secretaria_fic@sesisenai.org.br
+To: dalton.reis@gmail.com
+Message-ID: <601436340.11621.1771072516196@sgn-jms-app-996-8wmpg>
+Subject: Credenciais de acesso online
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_11620_313381478.1771072516194"
+
+------=_Part_11620_313381478.1771072516194
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html><html lang=3D"pt-BR"><head>    <meta charset=3D"utf-8"/>    =
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"/=
+>    <title>Bem-vindo ao SCTEC =E2=80=94 Acesso =C3=A0s plataformas</title>=
+    <style>        html, body { margin:0; padding:0; background:#f3f5f7; fo=
+nt-family:Arial, Helvetica, sans-serif; }        img { border:0; display:bl=
+ock; max-width:100%; }        a { text-decoration:none; }        .wrapper {=
+ width:100%; padding:24px 0; background:#f3f5f7; }        .container { max-=
+width:680px; margin:0 auto; background:#ffffff; border-radius:14px; overflo=
+w:hidden; }        .content { padding:22px 28px 10px 28px; color:#1f2937; f=
+ont-size:14px; line-height:22px; }        .title { color:#16a34a; font-size=
+:16px; font-weight:700; margin-bottom:12px; letter-spacing:.3px; }        .=
+card { background:#f6f8fb; border:1px solid #e5e7eb; border-radius:12px; pa=
+dding:16px; margin:16px 0 18px 0; }        .card-title { font-size:12px; fo=
+nt-weight:700; color:#111827; margin-bottom:10px; letter-spacing:.2px; }   =
+     .alert { font-size:12px; color:#b91c1c; margin-top:8px; line-height:18=
+px; }        .section-title { font-size:12px; font-weight:700; color:#11182=
+7; margin:18px 0 12px 0; letter-spacing:.2px; }        .small { font-size:1=
+2px; color:#6b7280; line-height:18px; margin:0; }        .tools { margin:0;=
+ padding:0; }        .tool-icon {            width:34px; height:34px; borde=
+r-radius:999px;            background:#eaf7ef; color:#166534;            fo=
+nt-size:16px; line-height:34px; text-align:center;            font-weight:7=
+00;        }        .tool-title { font-size:12px; font-weight:700; color:#1=
+11827; margin:0 0 2px 0; }        .tool-desc { font-size:12px; color:#6b728=
+0; line-height:18px; margin:0; }        .spacer-12 { height:12px; line-heig=
+ht:12px; font-size:12px; }        .divider { height:1px; background:#eef2f7=
+; margin:12px 0; }        .btn-row { text-align:center; padding:10px 28px 8=
+px 28px; }        .btn {            display:inline-block;            backgr=
+ound:#16a34a;            color:#ffffff;            font-weight:700;        =
+    font-size:13px;            padding:11px 16px;            border-radius:=
+999px;            margin:6px 6px;            white-space:nowrap;        }  =
+      .btn-icon { font-weight:900; margin-right:8px; }        .hint { text-=
+align:center; font-size:12px; color:#9ca3af; padding:6px 28px 10px 28px; } =
+       .support { text-align:center; font-size:12px; color:#6b7280; padding=
+:0 28px 18px 28px; line-height:18px; }        .footer { text-align:center; =
+font-size:12px; color:#166534; font-weight:700; padding:0 28px 22px 28px; }=
+        @media (max-width: 480px) {            .content, .btn-row, .hint, .=
+support, .footer {                padding-left:16px !important;            =
+    padding-right:16px !important;            }            .btn {          =
+      display:block !important;                margin:10px auto !important;=
+                max-width:320px;            }        }    </style></head><b=
+ody><div class=3D"wrapper">    <div class=3D"container">        <img src=3D=
+"https://sgn.sesisenai.org.br/resources/img/email-cabecalho-sctec.png"     =
+        alt=3D"CABECALHO SCTEC SENAI"/>        <div class=3D"content">     =
+       <div class=3D"title">BEM-VINDO(A) AO SCTEC!</div>            <p>Para=
+b=C3=A9ns, <strong>Dalton Solano dos Reis!</strong><br/>                Sua=
+ matr=C3=ADcula na trilha IA na Pr=C3=A1tica: Fundamentos da Intelig=C3=AAn=
+cia Artificial foi confirmada e voc=C3=AA oficialmente faz parte do SCTEC.<=
+/p>            <p><b>Confira as principais informa=C3=A7=C3=B5es sobre a ca=
+pacita=C3=A7=C3=A3o:</b></p>            <div class=3D"card">               =
+     <p style=3D"margin: 0"><strong>C=C3=B3digo:</strong> GANCP6QUP1EO</p> =
+               <p style=3D"margin: 0"><strong>Trilha:</strong> IA na Pr=C3=
+=A1tica: Fundamentos da Intelig=C3=AAncia Artificial</p>                <p =
+style=3D"margin: 0"><strong>N=C3=ADvel:</strong> Qualifica=C3=A7=C3=A3o / A=
+perfei=C3=A7oamento</p>                <p style=3D"margin: 0"><strong>Carga=
+ Hor=C3=A1ria:</strong> 8h</p>                    <p style=3D"margin: 0"><s=
+trong>Per=C3=ADodo:</strong> 14/02/26 - 16/03/26</p>                <p styl=
+e=3D"margin: 0"><strong>Turno:</strong> EAD</p>            </div>          =
+  <p>                    Para come=C3=A7ar, seguem abaixo seus <strong>dado=
+s de acesso</strong> =C3=A0s plataformas.            </p>            <div c=
+lass=3D"card">                <div class=3D"card-title">SEUS DADOS DE ACESS=
+O</div>                    <p style=3D"margin:0 0 8px 0;">                 =
+       <strong>Usu=C3=A1rio:</strong> dalton_reis<br/>                     =
+   <strong>Senha tempor=C3=A1ria:</strong> VVQS2742                    </p>=
+                    <div class=3D"alert">                        =E2=9A=A0=
+=EF=B8=8F Esta =C3=A9 uma <strong>senha tempor=C3=A1ria</strong>. No primei=
+ro acesso, voc=C3=AA dever=C3=A1                        <strong>criar uma n=
+ova senha pessoal</strong>.                    </div>            </div>    =
+        <div class=3D"section-title">Entendendo as nossas Plataformas Educa=
+cionais</div>            <table role=3D"presentation" width=3D"100%" cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"tools">                =
+<tr>                    <td width=3D"44" valign=3D"top" style=3D"padding:0 =
+12px 0 0;">                        <div class=3D"tool-icon">=F0=9F=8E=93</d=
+iv>                    </td>                    <td valign=3D"top">        =
+                <p class=3D"tool-title">Ambiente Virtual de Aprendizagem (A=
+VA)</p>                        <p class=3D"tool-desc">                     =
+       Neste ambiente, voc=C3=AA ter=C3=A1 acesso aos conte=C3=BAdos dos se=
+us cursos, al=C3=A9m de poder realizar atividades e avalia=C3=A7=C3=B5es.  =
+                      </p>                    </td>                </tr>   =
+             <tr><td colspan=3D"2" class=3D"spacer-12">&nbsp;</td></tr>    =
+            <tr><td colspan=3D"2"><div class=3D"divider"></div></td></tr>  =
+              <tr><td colspan=3D"2" class=3D"spacer-12">&nbsp;</td></tr>   =
+             <tr>                    <td width=3D"44" valign=3D"top" style=
+=3D"padding:0 12px 0 0;">                        <div class=3D"tool-icon">=
+=F0=9F=97=82=EF=B8=8F</div>                    </td>                    <td=
+ valign=3D"top">                        <p class=3D"tool-title">Espa=C3=A7o=
+ do Estudante (EE)</p>                        <p class=3D"tool-desc">      =
+                      Aqui voc=C3=AA encontra informa=C3=A7=C3=B5es escolar=
+es e financeiras, como registro de desempenho, certificados, boletos, reque=
+rimentos, assinatura de documentos, agenda digital e quadro de hor=C3=A1rio=
+s, entre outros.                        </p>                    </td>      =
+          </tr>            </table>        </div>        <div class=3D"btn-=
+row">            <a class=3D"btn" href=3D"https://ava.sesisenai.org.br/"   =
+            style=3D"color:#ffffff !important; text-decoration:none;">     =
+           <span class=3D"btn-icon">=E2=86=AA</span>Ambiente de Aprendizage=
+m - AVA            </a>            <a class=3D"btn" href=3D"https://estudan=
+te.sesisenai.org.br/login"               style=3D"color:#ffffff !important;=
+ text-decoration:none;">                <span class=3D"btn-icon">=E2=86=AA<=
+/span>Espa=C3=A7o do Estudante            </a>        </div>        <div cl=
+ass=3D"hint">Acesso com o mesmo usu=C3=A1rio e senha.</div>        <div cla=
+ss=3D"hint">Este e-mail cont=C3=A9m informa=C3=A7=C3=B5es pessoais e intran=
+sfer=C3=ADveis.</div>        <div class=3D"hint">Em caso de d=C3=BAvidas, e=
+ntre em contato com nossa central de atendimento.</div><br>        <div cla=
+ss=3D"footer">            <p>Bons estudos!</p>            <p style=3D"font-=
+weight: bold; color: #888888;">Equipe SCTEC</p>            <p style=3D"marg=
+in-top: 20px; color: #B0B0B0;">=C2=A9 2025 SCTEC. Todos os direitos reserva=
+dos.</p>        </div>        <img src=3D"https://sgn.sesisenai.org.br/reso=
+urces/img/email-rodape-sctec.png"             alt=3D"RODAPE SCTEC SENAI"/> =
+   </div></div></body></html>
+------=_Part_11620_313381478.1771072516194--
